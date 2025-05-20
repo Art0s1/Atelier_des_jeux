@@ -260,7 +260,7 @@ if ($conn->connect_error) {
   die("Connexion échouée: " . $conn->connect_error);
 }
 //requete qui prend les 5 idT (id de tickets) dans l'odre décroissant
-$sql = "SELECT * FROM utilisateurs ORDER BY id DESC LIMIT 3";
+$sql = "SELECT * FROM utilisateurs ORDER BY idu DESC LIMIT 3";
 $result = $conn->query($sql);
 ?>
 
