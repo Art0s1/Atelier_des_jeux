@@ -23,11 +23,19 @@ Une fois fait l'utilisateur recois un message vert qui lui annonce que sa demand
 
 ![image](https://github.com/user-attachments/assets/dbfe6189-80c5-49c1-9871-deb5cb8f8e43)
 
+Le pânneau d'administration est p^rotégé par HTacces
+
 ![image](https://github.com/user-attachments/assets/fab76f2a-8515-4395-9083-7f6671b67b1d)
+
+Voici le panneau d'administration qui ets dirrectement lié a la base de donné afin de voir tous les tickets classé par leur status ( en code couleur et dans l'odre du plus recetn au plus vieux si plus bas) ainsi que tous les utilisateurs (dans l'odre de création des utilisateurs)
 
 ![image](https://github.com/user-attachments/assets/163a6343-3e9b-43be-aa9f-b9d5ae831545)
 
+Voici le panneau de Gestion des tickets ou ils sont classé selon leur ID(sois dans l'odre du plus récent u moin récent), ici nous pouvons interagir avec les tickets afin de modifier leur tsatus en temps réel jusqu'a ce que le status sois 'fermé' et donc résolus
+
 ![image](https://github.com/user-attachments/assets/315b74fc-5e2c-4b3f-8df4-72b972b177a8)
+
+Ici se trouve le panneau de gestion des utilisateurs (dans l'odre alphabetique cette fois si) ou nous pouvons supprimer des utilisateurs si besoin
 
 ![image](https://github.com/user-attachments/assets/e9434b93-6277-44d9-8615-192ae4f071cc)
 
