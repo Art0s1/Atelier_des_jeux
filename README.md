@@ -27,7 +27,7 @@ Les administrateurs bénéficient d’un accès sécurisé via des panels proté
 
 ---
 
-## 🏠 Page d’accueil utilisateur
+##  Page d’accueil utilisateur
 
 Une fois connecté, l’utilisateur accède à cette **page d’accueil**.
 
@@ -35,7 +35,7 @@ Une fois connecté, l’utilisateur accède à cette **page d’accueil**.
 
 ---
 
-## 📝 Création d’un ticket
+##  Création d’un ticket
 
 En cliquant sur le bouton **"Ticket"**, l’utilisateur peut créer un ticket dans la base de données afin de **signaler un problème**.  
 Il peut y ajouter une description détaillée.
@@ -60,7 +60,7 @@ L'accès à l'interface d’administration est **protégé par HTAccess** pour g
 
 ---
 
-## 📊 Interface d'administration : tickets & utilisateurs
+##  Interface d'administration : tickets & utilisateurs
 
 Voici le **panneau d’administration**, connecté à la base de données.  
 Il permet de :
