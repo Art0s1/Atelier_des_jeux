@@ -19,4 +19,5 @@ Atelier des jeux
 
 ![image](https://github.com/user-attachments/assets/315b74fc-5e2c-4b3f-8df4-72b972b177a8)
 
-![image](https://github.com/user-attachments/assets/a9ac9ec8-f77d-4001-a6cd-af41f9bcc295)
+![image](https://github.com/user-attachments/assets/e9434b93-6277-44d9-8615-192ae4f071cc)
+
