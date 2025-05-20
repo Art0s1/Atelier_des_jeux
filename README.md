@@ -1,6 +1,8 @@
 # Atelier_des_jeux
 Atelier des jeux
 
+Je vous présente le projet Atelier des jeux qui consiste a gérer via un système de tickets les problème des utilisateurs via une interface web
+
 ![image](https://github.com/user-attachments/assets/acb3f7f8-f66a-4027-beb3-b0ae24c8b323)
 
 ![image](https://github.com/user-attachments/assets/c13f3eb3-7b0b-460e-aa3a-b5013af5c7ad)
