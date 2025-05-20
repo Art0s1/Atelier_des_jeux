@@ -1,41 +1,95 @@
 # Atelier_des_jeux
-Atelier des jeux
 
-Je vous présente le projet Atelier des jeux qui consiste a gérer via un système de tickets les problème des utilisateurs via une interface web
+Bienvenue sur le projet **Atelier des jeux** !  
+Il s'agit d'une application web permettant de **gérer les problèmes des utilisateurs** via un **système de tickets**, le tout à travers une interface simple et intuitive.
 
-Voici l'écran de login permettant de se connnecter, via une fenetre pop-up qui aparait une fois le bouton "Login" cliqué
+---
 
-![image](https://github.com/user-attachments/assets/acb3f7f8-f66a-4027-beb3-b0ae24c8b323)
+##  Écran de connexion
 
-Cette fenetre pop-up offre la possibilité de créer deux types de comptes, les utilisateurs(Créer dans la base de donné) et les admins(créer dirrectement sur la machine dans le fichier "user.password") qui donne l'accès  via les panels HTacces
+Voici l'écran de **login**, accessible via un bouton "Login" sur la page d'accueil.  
+Une **fenêtre pop-up** s'affiche alors pour permettre à l'utilisateur de se connecter.
 
-![image](https://github.com/user-attachments/assets/c13f3eb3-7b0b-460e-aa3a-b5013af5c7ad)
+![Login](https://github.com/user-attachments/assets/acb3f7f8-f66a-4027-beb3-b0ae24c8b323)
 
-Une fois un utilisateur créé dans la base de donné il peut donc se connecter via le pannel de Login et arriver sur cette page qui est la page d'acceuil.
+---
 
-![image](https://github.com/user-attachments/assets/644ebc42-5fc6-4f60-95d8-b7909249d417)
+##  Création de comptes : utilisateurs & administrateurs
 
-Si l'utilisateur clique sur le bouton "Ticket" de la page d'acceuil, il peut donc créer un ticket dans la base de donné afin de signaler un problème qu'il peut décrire si dessous
+Cette fenêtre pop-up offre la possibilité de créer deux types de comptes :
 
-![image](https://github.com/user-attachments/assets/2cba9efa-1cc8-441f-abd7-f740694ac59f)
+- **Utilisateurs** : créés dans la base de données.
+- **Administrateurs** : créés localement dans le fichier `user.password` sur la machine.
 
-Une fois fait l'utilisateur recois un message vert qui lui annonce que sa demande a bien été prise en compte
+Les administrateurs bénéficient d’un accès sécurisé via des panels protégés par **HTAccess**.
 
-![image](https://github.com/user-attachments/assets/dbfe6189-80c5-49c1-9871-deb5cb8f8e43)
+![Création comptes](https://github.com/user-attachments/assets/c13f3eb3-7b0b-460e-aa3a-b5013af5c7ad)
 
-Le pânneau d'administration est p^rotégé par HTacces
+---
 
-![image](https://github.com/user-attachments/assets/fab76f2a-8515-4395-9083-7f6671b67b1d)
+## 🏠 Page d’accueil utilisateur
 
-Voici le panneau d'administration qui ets dirrectement lié a la base de donné afin de voir tous les tickets classé par leur status ( en code couleur et dans l'odre du plus recetn au plus vieux si plus bas) ainsi que tous les utilisateurs (dans l'odre de création des utilisateurs)
+Une fois connecté, l’utilisateur accède à cette **page d’accueil**.
 
-![image](https://github.com/user-attachments/assets/163a6343-3e9b-43be-aa9f-b9d5ae831545)
+![Accueil utilisateur](https://github.com/user-attachments/assets/644ebc42-5fc6-4f60-95d8-b7909249d417)
 
-Voici le panneau de Gestion des tickets ou ils sont classé selon leur ID(sois dans l'odre du plus récent u moin récent), ici nous pouvons interagir avec les tickets afin de modifier leur tsatus en temps réel jusqu'a ce que le status sois 'fermé' et donc résolus
+---
 
-![image](https://github.com/user-attachments/assets/315b74fc-5e2c-4b3f-8df4-72b972b177a8)
+## 📝 Création d’un ticket
 
-Ici se trouve le panneau de gestion des utilisateurs (dans l'odre alphabetique cette fois si) ou nous pouvons supprimer des utilisateurs si besoin
+En cliquant sur le bouton **"Ticket"**, l’utilisateur peut créer un ticket dans la base de données afin de **signaler un problème**.  
+Il peut y ajouter une description détaillée.
 
-![image](https://github.com/user-attachments/assets/e9434b93-6277-44d9-8615-192ae4f071cc)
+![Création ticket](https://github.com/user-attachments/assets/2cba9efa-1cc8-441f-abd7-f740694ac59f)
 
+---
+
+## Confirmation de soumission
+
+Une fois le ticket envoyé, l’utilisateur reçoit un message de **confirmation vert** l’informant que sa demande a bien été prise en compte.
+
+![Confirmation](https://github.com/user-attachments/assets/dbfe6189-80c5-49c1-9871-deb5cb8f8e43)
+
+---
+
+## Sécurité du panneau d’administration
+
+L'accès à l'interface d’administration est **protégé par HTAccess** pour garantir une meilleure sécurité.
+
+![HTAccess](https://github.com/user-attachments/assets/fab76f2a-8515-4395-9083-7f6671b67b1d)
+
+---
+
+## 📊 Interface d'administration : tickets & utilisateurs
+
+Voici le **panneau d’administration**, connecté à la base de données.  
+Il permet de :
+
+- Visualiser tous les tickets, classés par **code couleur** selon leur statut.
+- Trier les tickets du **plus récent au plus ancien**.
+- Consulter la liste complète des utilisateurs, **classés selon leur date de création**.
+
+![Dashboard admin](https://github.com/user-attachments/assets/163a6343-3e9b-43be-aa9f-b9d5ae831545)
+
+---
+
+## Gestion des tickets (admin)
+
+Ce panneau affiche les tickets par **ordre d’ID** (du plus récent au plus ancien).  
+L’administrateur peut **modifier le statut des tickets en temps réel**, jusqu’à ce que le ticket soit marqué comme **"fermé"**, ce qui signifie qu’il est résolu.
+
+![Gestion tickets](https://github.com/user-attachments/assets/315b74fc-5e2c-4b3f-8df4-72b972b177a8)
+
+---
+
+##  Gestion des utilisateurs
+
+Cette interface permet de consulter les utilisateurs par **ordre alphabétique**.  
+L’administrateur peut également **supprimer des utilisateurs** si nécessaire.
+
+![Gestion utilisateurs](https://github.com/user-attachments/assets/e9434b93-6277-44d9-8615-192ae4f071cc)
+
+---
+
+ Ce projet met en avant une gestion claire et sécurisée des interactions utilisateurs/administrateurs autour d’un système de tickets.  
+Il peut facilement être adapté à d'autres cas d'usage similaires.
